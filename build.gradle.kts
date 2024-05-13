@@ -15,14 +15,6 @@ repositories {
 	mavenCentral()
 }
 
-buildscript {
-	repositories {
-		jcenter {
-			setArtifactUrls(listOf("http://jcenter.bintray.com/"))
-		}
-	}
-}
-
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-batch")
 	runtimeOnly("org.mariadb.jdbc:mariadb-java-client")

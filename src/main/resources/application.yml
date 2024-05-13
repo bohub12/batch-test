@@ -9,5 +9,5 @@ spring:
   batch:
     jdbc:
       initialize-schema: always
-job:
-  name: ${job.name}
+    job:
+      name: ${job.name}
