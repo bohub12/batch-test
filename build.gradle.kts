@@ -18,7 +18,7 @@ repositories {
 buildscript {
 	repositories {
 		jcenter {
-			"http://jcenter.bintray.com/"
+			setArtifactUrls(listOf("http://jcenter.bintray.com/"))
 		}
 	}
 }
